@@ -288,7 +288,6 @@
 I silently wish you happiness in every moment.
 Happy New Year. 🤍</p>
         <button class="celebrate-button" id="celebrateBtn">Celebrate<br>(<mark>Click me</mark>) </button>
-        <button class="next-page-button" id="nextPageBtn">More wishes</button>
     </div>
 
     <script>
@@ -984,10 +983,7 @@ gsap.to(romanticMsg, {
                     });
                 });
 
-                const nextPageBtn = document.getElementById('nextPageBtn');
-    nextPageBtn.addEventListener('click', () => {
-        window.location.href = 'letter.html'; // Change this URL to the actual next page
-    });
+
 
     gsap.to(nextPageBtn, {
         opacity: 1,
@@ -1021,6 +1017,7 @@ gsap.to(romanticMsg, {
 </body>
 
 </html>
+
 
 
 
